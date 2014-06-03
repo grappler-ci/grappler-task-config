@@ -1,0 +1,29 @@
+{
+  "name": "grappler-task-config",
+  "version": "0.1.0",
+  "description": "configure the task using deploy yml",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camshaft/grappler-task-config.git"
+  },
+  "keywords": [
+    "grappler",
+    "ci",
+    "config",
+    "deploy"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camshaft/grappler-task-config/issues"
+  },
+  "homepage": "https://github.com/camshaft/grappler-task-config",
+  "dependencies": {
+    "deploy-yml": "^0.1.0",
+    "superagent": "^0.18.0"
+  }
+}
