@@ -20,7 +20,9 @@ var PROPERTIES = [
   'env',
   'app',
   'domains',
-  'errorPage'
+  'errorPage',
+  'mount',
+  'shortName'
 ];
 
 module.exports = function(opts) {
